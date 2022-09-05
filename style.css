@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{margin:0; font-family: 'Titillium Web';}
+.mobil-menu{display: none; position: absolute; top: 1em; float: left; right: 1em;}
+h2{text-transform: uppercase; font-weight: 600; color: #ffffff; margin: 0.3em 0;}
+h3{text-transform: uppercase;font-size: 24px;}
+a{text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+header{display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #864f9c;
+    padding: 2em 10em;
+}
+header img{width: 6em;}
+header nav{padding-top: 0.5em;}
+header nav a{
+    padding: 0.2em 0.8em;
+    border-radius: 4px;
+}
+header nav a:hover{
+background-color: #633a79;
+}
+main article{
+    padding: 5em 10em; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+}
+main article button{
+    color: #fff;
+    font-family: "Titillium Web";
+    font-size: 18px;
+    margin: 3em 0;
+    padding: 1em 4em;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+main article h2{font-size: 40px; text-align: center;}
+main article div{width: 100%;}
+main article .line{margin:auto; width: 87px; height: 4px; background: rgba(0, 0, 0, 0.1);}
+main article p{font-size: 18px; padding: 0 11.5em; text-align: center; margin-bottom: 3em;}
+main article ul{width:100%; padding:0; display: flex; flex-wrap: wrap; justify-content: space-between; }
+main article ul li{list-style: none; flex-basis:24%; margin:auto;}
+main article ul li p{padding: 0; text-align: center; font-size: 16px;}
+main article ul li h3{text-align: center;}
+main article ul li div{text-align: center; color: #30bae7; font-size: 16px;}
+main article ul li img{display: block; margin: auto;}
+main #wellcome{
+    background-color: #864f9c;
+ 
+}
+main #wellcome p{
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    padding:0 2em;
+    margin: 0;
+}
+main #wellcome button{
+    background: #eb7d4b;
+}
+main #wellcome button:hover{background: #a13706;}
+main #services{background-color: #17c2a4;}
+main #team{background-color: #e7f1f8; color: #3c4761;}
+main #team h2{color: #3c4761;}
+main #team img{width: 200px;}
+main #skills{background-color: #fff; color: #3c4761;}
+main #skills h2{color: #3c4761;}
+main #portfolio{background-color: #ffdd99; color: #393939;}
+main #portfolio h2{color: #393939; font-weight: 700;}
+main #portfolio .works{margin-bottom: 65px;}
+main #portfolio .works a{
+    padding: 10px 25px; 
+    background-color: rgba(0,0,0,0.08);
+    border-radius: 4px;
+    margin:0 12px;
+    color: #393939;
+    }
+main #portfolio .works a:active{background-color: #fff;}
+main #portfolio ul li{flex-basis: 48%;}
+main #portfolio ul li img{width: 95%;}
+main #portfolio ul li p{text-transform: uppercase;}
+main #portfolio button{background-color: #17c2a4;}
+main #portfolio button:hover{background-color: #12806b;}
+main #testimonials{background-color: #d74680;padding-bottom: 0;}
+main #testimonials ul li{
+    background: url('circle.png') no-repeat;
+    background-size: 96px;
+    padding-left: 150px;
+    margin-bottom:  130px;
+    flex-basis: 33%;
+}
+main #testimonials ul li p{text-align: left; margin: 0;}
+main #testimonials ul li .comment{font-size: 21px; font-style: italic; margin-bottom: 30px;}
+main #testimonials ul li .author{font-size: 24px; font-weight: 700;}
+main #testimonials ul li .achive{color: #ffdd99;}
+main #getintouch{background-color: #3c5499;}
+main #getintouch form{
+    width: 85%;
+    display: flex; 
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+main #getintouch form input,
+main #getintouch form textarea{
+    border: none;
+    border-radius: 4px; 
+    background-color: #273a71;
+    padding-left: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+main #getintouch form input{min-width: 45%; margin-bottom: 30px; height: 55px;}
+main #getintouch form textarea{width: 100%; padding-top: 10px;}
+::placeholder{color: #fff; font-weight: 400; font-size: 18px; font-family: 'Titillium Web';}
+::placeholder::after{content:'*'; color: #aa0000; display: inline-block;}
+main #getintouch form button{margin: 3em auto; background-color: #2fb9e7;}
+main #getintouch form button:hover{background-color: #036383;}
+footer{background: #334b8e; height: 115px; display: flex;}
+footer nav{margin: auto;}
+footer nav a{
+    margin:0 1em; 
+    font-size: 24px; 
+    font-weight: 600; 
+    font-family: "Titillium Web"; 
+    text-transform: none;
+}
+footer nav a:hover{color: #30bae7;}
+@media (max-width: 1000px)
+{
+    main article p {padding: 0 6em;}
+    main #team img { width: 150px; }
+    main #testimonials ul li { flex-basis: 100%;}
+    main #wellcome p { font-size: 35px;}
+    h3 {font-size: 20px;}
+    main article ul li {flex-basis: 35%;}
+}
+@media (max-width: 800px)
+{
+    main article { padding: 3em 5em;}
+    main article p { padding: 0 3em;}
+    main article h2 {font-size: 30px; }
+    main #portfolio .works a { padding: 7px 20px; }
+    main #testimonials ul li { margin-bottom: 70px; }
+    main #getintouch form input { width: 100%; }
+    header {padding: 1em 3em;}
+}
+@media (max-width: 600px)
+{
+    main article { padding: 1em 2em;}
+    main article p { padding: 0 1em;}
+    main article h2 {font-size: 23px; }
+    main #wellcome p { font-size: 20px;}
+    main #services li{width: 45%;}
+    main #services li img{width: 95%;}
+    main #portfolio .works a { padding: 5px 10px; }
+    main #testimonials ul li { margin-bottom: 70px; }
+    main #getintouch form input { width: 100%; }
+    header {padding: 1em 3em;}
+    h3{font-size: 18px;}
+    main article ul li { flex-basis: 40%; }
+    main article ul li p { font-size: 14px; }
+    main #skills ul li img{width: 80%;}
+    main #testimonials ul li .comment {font-size: 21px;}
+    main #testimonials ul li .author { font-size: 21px;}
+    .mobil-menu{display: block;}
+    header nav { display: none;}
+    }
+@media (max-width: 400px)
+{
+    main article ul li { flex-basis: 100%; }
+    main #skills ul li img {width: auto;}
+    main #services li img { width: auto; }
+    main #portfolio ul li { flex-basis: 100%; }
+    main article ul li p { font-size: 17px; }
+    main #portfolio .works a { padding: 5px 10px; font-size: 10px; margin: 5px;}
+    main #testimonials ul li {background-size: 75px;padding-left: 90px;}
+    main #testimonials ul li .comment {font-size: 18px;}
+    main #testimonials ul li .author { font-size: 18px;}
+    main article button {
+        font-size: 14px;
+        padding: 1em 2em;}
+}
